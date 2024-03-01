@@ -54,11 +54,13 @@ Dieses Projekt ist ein Programm das ihnen beliebige Files in ein Zip Archiv Komp
 | ---- | ----- | --------- | ------------ | ------------- |
 | 1.A  | 23.02.2024      | Lucena Samuel          | Auswahl Files & Zippen besagter files| 3x 45|
 | 1.B  | 23.02.2024      | Lucena Samuel          | Catch bei ungültigen Files   | 45 |
+| 2.A  | 23.02.2024      | Lucena Samuel | Entzip FUnktion | 45| 
+| 3.A  | 23.02.2024      | Manser Alberto | Auswahl der Funktion | 45 |
 | 4.A  | 23.02.2024      | Manser Alberto          | Auswahl eines Zielordners in dem das ZIP Archiv erstellt wird| 2x45|
 | 4.B  | 23.02.2024      | Manser Alberto | Failsafe bei nicht gütligem Ordner | 45 |
 | 5.A  | 23.02.2024      | Lucena Samuel | Angeben eines Name für den ZIP Ordner | 45|
 
-Total: 8 x 45
+Total: 10 x 45
 
 
 
@@ -72,6 +74,8 @@ Da wir zeitlich gut dran waren haben wir uns entschieden alle User Stories umzus
 | ---- | --------- | --------------- | ------------- | ----------------- |
 | 1.A  | 16.02.2024| Lucena Samuel   |3x45           |2x45               |
 | 1.B  | 23.02.2024| Lucena Samuel   | 45            | 60                |
+| 2.A  | 16.02.2024| Lucena Samuel   | 45            | 45                |
+| 3.A  | 23.02.2024| Manser Alberto  | 45            | 30                |
 | 4.A  | 16.02.2024| Manser Alberto  | 2 x 45        | 80                |
 | 4.B  | 23.02.2024| Manser Alberto  | 45            | 50                |
 | 5.A  | 23.02.2024| Lucena Samuel   | 45            | 20                | 
