@@ -90,8 +90,5 @@ Da wir zeitlich gut dran waren haben wir uns entschieden alle User Stories umzus
 | 4.2  | 23.02.24| richtige Ausgabe| Manser Alberto|
 | 5.1  | 23.02.24| richtige Ausgabe| Lucena Samuel |
 
-✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
+Das Testen lief ziemlich gut. Es lief überaschend flüssig und wir hatten keine Probleme. Wir haben den Code möglichst gut geschrieben und es hat sich gelohnt.
 
-## 6 Auswerten
-
-✍️ Fügen Sie hier eine Verknüpfung zu Ihrem Lern-Bericht ein.
