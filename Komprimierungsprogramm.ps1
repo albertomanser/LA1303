@@ -1,6 +1,6 @@
 do {
     $PathToFiles = Read-Host "Gib den Pfad zu deinen Dateien ein (z.B. C:\Pfad\des\Ordners)"
-
+    # Wir haben für diesen Teil Bingchat verwendet: https://sl.bing.net/ef8o1L9Insq
     if (-not (Test-Path -Path $PathToFiles)) {
         Write-Host "Der angegebene Pfad existiert nicht."
         continue
@@ -20,7 +20,7 @@ do {
     Write-Host "4. Beenden"
 
     $Choice = Read-Host "Gib die Nummer der gewünschten Option ein"
-
+    # Das Komprimieren haben wir aus dieser Website gelernt, Code benutzt: https://www.sharepointdiary.com/2022/06/how-to-zip-file-folder-using-powershell.html
     switch ($Choice) {
         1 {
             Compress-Archive -LiteralPath $PathToFiles -DestinationPath $PathToDestination
