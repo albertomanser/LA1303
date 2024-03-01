@@ -1,7 +1,7 @@
 # Projekt-Dokumentation
 
 
-Manser Alberto & Samuel Lucena Losada
+Manser Alberto & Lucena Losada Samuel 
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
@@ -19,9 +19,11 @@ Dieses Projekt ist ein Programm das ihnen beliebige Files in ein Zip Archiv Komp
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    | Muss            | Funktional     | Als ein User möchte ich Files Zipen können|
-| 2    | Kann            | Funktional     | Als ein Nutzer möchte ich den Zielordner angeben können|
-| 3    | Kann            | Qualität     | Als ein Nutzer möchte ich den Namen des ZIP Archiv angeben können|
+| 1    | Muss            | Funktional     | Als ein User möchte ich Files zippen können|
+| 2    | Muss            | Funktional     | Als ein User möchte ich Files entzippen können|
+| 3    | Kann            | Funktional     | Als ein Nutzer möchte ich wählen können, ob ich Files oder Ordner zippen oder entzippen möchte|
+| 4    | Kann            | Funktional     | Als ein Nutzer möchte ich den Zielordner angeben können|
+| 5    | Kann            | Qualität       | Als ein Nutzer möchte ich den Namen des ZIP Archiv angeben können|
 
 
 
@@ -29,30 +31,28 @@ Dieses Projekt ist ein Programm das ihnen beliebige Files in ein Zip Archiv Komp
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  | Programm gestartet| Zu Zippende Files| Files wurden erfolgreich gezipt|
-| 1.2  | Programm gestartet| nicht existente Files | Files wurden nicht gefunden, bitte geben sie gültige Files an.|
-| 2.1  | Programm gestartet | Zielordner des Zip Archivs | Zip Archiv wurde in Zielordner gespeichert |
-| 2.2  | Programm gestartet | ungültiger Zielordner | Dieser Ordner ist nicht gültig, bitte geben sie einen gültigen Zielordner an |
-| 3.1  | Programm gestartet, zu Zipende files eingegeben             | Name für das Archiv         |das Archiv Beispiel.zip wurde erstellt                   |
+| 1.1  | Programm gestartet| Zu zippende Files| Dateien wurden erfolgreich in (Zielpfad) komprimiert|
+| 2.1  | Programm gestartet| nicht existente Files | Der angegebene Pfad existiert nicht |
+| 3.1  | Programm gestartet, Pfade angegeben| "3" Ordner mit unterordner zippen| Ordner und Unterordner wurden erfolgreich in (Zielpfad) komprimiert|
+| 3.2  | Programm gestartet, Pfade angegeben| "4" Programm beenden | Programm wird beendet|
+| 4.1  | Programm gestartet | Zielordner des Zip Archivs | Zip Archiv wurde in Zielordner gespeichert |
+| 4.2  | Programm gestartet | ungültiger Zielordner | Der angegebene Pfad existiert nicht|
+| 5.1  | Programm gestartet, zu Zipende files eingegeben             | Name für das Archiv         |das Archiv Beispiel.zip wurde erstellt|
  
 
 ### 1.4 Diagramme
 
-![image](https://github.com/albertomanser/LA1303/assets/110892537/2d8e3270-6bea-45e2-9093-a8d0e25aa203)
-![image](https://github.com/albertomanser/LA1303/assets/110892537/6f8d0beb-ca99-4060-96f9-3d6f29f50ba2)
-![image](https://github.com/albertomanser/LA1303/assets/110892537/f7f5ade7-b826-4365-96e3-be4b94cd250c)
-![image](https://github.com/albertomanser/LA1303/assets/110892537/a7027593-e230-4068-9ed7-c231dfe5fbe8)
-
+✍️ Hier können Sie PAPs, Use Case- und Gantt-Diagramme oder Ähnliches einfügen.
 
 ## 2 Planen
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  | 23.02.2024      | Lucena Samuel          | Auswahl Files & Zippen besagter files             | 3x 45              |
+| 1.A  | 23.02.2024      | Lucena Samuel          | Auswahl Files & Zippen besagter files| 3x 45|
 | 1.B  | 23.02.2024      | Lucena Samuel          | Catch bei ungültigen Files   | 45 |
-| 2.A  | 23.02.2024      | Manser Alberto          | Auswahl eines Zielordners in dem das ZIP Archiv erstellt wird             | 2x45              |
-| 2.B  | 23.02.2024      | Manser Alberto | Failsafe bei nicht gütligem Ordner | 45 |
-| 3.A  | 23.02.2024      | Lucena Samuel | Angeben eines Name für den ZIP Ordner | 45|
+| 4.A  | 23.02.2024      | Manser Alberto          | Auswahl eines Zielordners in dem das ZIP Archiv erstellt wird| 2x45|
+| 4.B  | 23.02.2024      | Manser Alberto | Failsafe bei nicht gütligem Ordner | 45 |
+| 5.A  | 23.02.2024      | Lucena Samuel | Angeben eines Name für den ZIP Ordner | 45|
 
 Total: 8 x 45
 
@@ -64,13 +64,13 @@ Da wir zeitlich gut dran waren haben wir uns entschieden alle User Stories umzus
 
 ## 4 Realisieren
 
-| AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
-| ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  | 16.02.2024      | Lucena Samuel          |3x45               |2x45                   |
-| 1.B  | 23.02.2024      | Lucena Samuel          | 45               | 60                  |
-| 2.A  | 16.02.2024      | Manser Alberto | 2 x 45 | 80 |
-|2.B   | 23.02.2024      | Manser Alberto | 45     | 50 |
-| 3.A  | 23.02.2024      | Lucena Samuel  | 45     | 20 | 
+| AP-№ | Datum     | Zuständig       | geplante Zeit | tatsächliche Zeit |
+| ---- | --------- | --------------- | ------------- | ----------------- |
+| 1.A  | 16.02.2024| Lucena Samuel   |3x45           |2x45               |
+| 1.B  | 23.02.2024| Lucena Samuel   | 45            | 60                |
+| 4.A  | 16.02.2024| Manser Alberto  | 2 x 45        | 80                |
+| 4.B  | 23.02.2024| Manser Alberto  | 45            | 50                |
+| 5.A  | 23.02.2024| Lucena Samuel   | 45            | 20                | 
  
 
 
