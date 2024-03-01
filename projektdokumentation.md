@@ -54,7 +54,7 @@ Dieses Projekt ist ein Programm das ihnen beliebige Files in ein Zip Archiv Komp
 | ---- | ----- | --------- | ------------ | ------------- |
 | 1.A  | 23.02.2024      | Lucena Samuel          | Auswahl Files & Zippen besagter files| 3x 45|
 | 1.B  | 23.02.2024      | Lucena Samuel          | Catch bei ungültigen Files   | 45 |
-| 2.A  | 23.02.2024      | Lucena Samuel | Entzip FUnktion | 45| 
+| 2.A  | 23.02.2024      | Lucena Samuel | Entzip Funktion | 45| 
 | 3.A  | 23.02.2024      | Manser Alberto | Auswahl der Funktion | 45 |
 | 4.A  | 23.02.2024      | Manser Alberto          | Auswahl eines Zielordners in dem das ZIP Archiv erstellt wird| 2x45|
 | 4.B  | 23.02.2024      | Manser Alberto | Failsafe bei nicht gütligem Ordner | 45 |
