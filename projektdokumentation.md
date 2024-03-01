@@ -3,11 +3,11 @@
 
 Manser Alberto & Lucena Losada Samuel 
 
-| Datum | Version | Zusammenfassung                                              |
-| ----- | ------- | ------------------------------------------------------------ |
-|       | 0.0.1   |                                                              |
-|       | ...     |                                                              |
-|       | 1.0.0   |                                                              |
+| Datum   | Version | Zusammenfassung                                              |
+| ------- | ------- | ------------------------------------------------------------ |
+| 12.01.24| 0.0.1   | Start des Projektes                                          |
+| 26.01.24| 0.1.0   | Erste Funktionierende Version des Programms                  |
+| 23.02.24| 1.0.0   | Vollständige Version mit mehr Features und ausbesserungen    |
 
 ## 1 Informieren
 
@@ -80,8 +80,6 @@ Da wir zeitlich gut dran waren haben wir uns entschieden alle User Stories umzus
 
 ## 5 Kontrollieren
 
-### 5.1 Testprotokoll
-
 | TC-№ | Datum   | Resultat        | Tester        |
 | ---- | ------- | --------------- | ------------- |
 | 1.1  | 23.02.24| richtige Ausgabe| Lucena Samuel |
@@ -93,15 +91,6 @@ Da wir zeitlich gut dran waren haben wir uns entschieden alle User Stories umzus
 | 5.1  | 23.02.24| richtige Ausgabe| Lucena Samuel |
 
 ✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
-
-### 5.2 Exploratives Testen
-
-| BR-№ | Ausgangslage | Eingabe | Erwartete Ausgabe | Tatsächliche Ausgabe |
-| ---- | ------------ | ------- | ----------------- | -------------------- |
-| I    |              |         |                   |                      |
-| ...  |              |         |                   |                      |
-
-✍️ Verwenden Sie römische Ziffern für Ihre Bug Reports, also I, II, III, IV etc.
 
 ## 6 Auswerten
 
