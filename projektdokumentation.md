@@ -82,10 +82,15 @@ Da wir zeitlich gut dran waren haben wir uns entschieden alle User Stories umzus
 
 ### 5.1 Testprotokoll
 
-| TC-№ | Datum | Resultat | Tester |
-| ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+| TC-№ | Datum   | Resultat        | Tester        |
+| ---- | ------- | --------------- | ------------- |
+| 1.1  | 23.02.24| richtige Ausgabe| Lucena Samuel |
+| 2.1  | 23.02.24| richtige Ausgabe| Lucena Samuel |
+| 3.1  | 23.02.24| richtige Ausgabe| Manser Alberto|
+| 3.2  | 23.02.24| richtige Ausgabe| Manser Alberto|
+| 4.1  | 23.02.24| richtige Ausgabe| Manser Alberto|
+| 4.2  | 23.02.24| richtige Ausgabe| Manser Alberto|
+| 5.1  | 23.02.24| richtige Ausgabe| Lucena Samuel |
 
 ✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
 
