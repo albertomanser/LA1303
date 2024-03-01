@@ -38,7 +38,11 @@ Dieses Projekt ist ein Programm das ihnen beliebige Files in ein Zip Archiv Komp
 
 ### 1.4 Diagramme
 
-✍️ Hier können Sie PAPs, Use Case- und Gantt-Diagramme oder Ähnliches einfügen.
+![image](https://github.com/albertomanser/LA1303/assets/110892537/2d8e3270-6bea-45e2-9093-a8d0e25aa203)
+![image](https://github.com/albertomanser/LA1303/assets/110892537/6f8d0beb-ca99-4060-96f9-3d6f29f50ba2)
+![image](https://github.com/albertomanser/LA1303/assets/110892537/f7f5ade7-b826-4365-96e3-be4b94cd250c)
+![image](https://github.com/albertomanser/LA1303/assets/110892537/a7027593-e230-4068-9ed7-c231dfe5fbe8)
+
 
 ## 2 Planen
 
